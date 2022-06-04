@@ -1,8 +1,8 @@
 {
   "repositoryUrl": "https://github.com/timoa/vscode-server-templates.git",
   "branches": [
-    "master",
-    "develop"
+    "main",
+    "master"
   ],
   "tagFormat": "v${version}",
   "plugins": [
