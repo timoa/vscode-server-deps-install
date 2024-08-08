@@ -28,11 +28,11 @@
     },
     {
       "description": "Allow updates after 15 days (exclude renovate)",
-      "excludePackageNames": [
-        "renovate/renovate"
-      ],
       "separateMinorPatch": true,
-      "stabilityDays": 15
+      "minimumReleaseAge": "15 days",
+      "matchPackageNames": [
+        "!renovate/renovate"
+      ]
     }
   ]
 }
